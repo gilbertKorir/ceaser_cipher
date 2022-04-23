@@ -1,6 +1,5 @@
-
-
 public class Encrypt {
+
     private String mOriginalMessage;
     private StringBuilder mEncryptedMessage=new StringBuilder("");
     private int mKey;
@@ -14,7 +13,7 @@ public class Encrypt {
 
     public String Encrypt(String message,int key){
         this.mOriginalMessage = message.toUpperCase();
-        mKey=key;
+        mKey = key;
         mOriginalCharArray=mOriginalMessage.toCharArray();
 
         for(int i=0;i<mOriginalCharArray.length;i++){
@@ -32,7 +31,6 @@ public class Encrypt {
                     encryptedLetter=mAlphabet.charAt(newIndex);
                     mEncryptedMessage.append(encryptedLetter);
                 }
-
             }
         }
         return mEncryptedMessage.toString();

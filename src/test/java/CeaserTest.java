@@ -9,4 +9,10 @@ public class CeaserTest {
         Ceaser cipher=new Ceaser ("THE QUICK BROWN", 2);
         assertEquals(true,cipher instanceof Ceaser);
     }
+
+    @Test
+    public void newCaesar_checkKey_4(){
+        Ceaser testCaesar = new Ceaser ("a",4);
+        assertEquals(4,testCaesar.getmKey());
+    }
 }
