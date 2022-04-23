@@ -32,7 +32,7 @@ A Caesar cipher is a simple method of encoding messages. Caesar ciphers use a su
 <p>Steps</p>
 
 * Clone the repo `https://github.com/gilbertKorir/ceaser_cipher` and open it in your ideal editor example is intellij.
-* navigate to the /build/classes/main directory that contains the compiled code
+* navigate to the /src/main directory that contains the compiled code
 * launch the app using "java App"
 
 
