@@ -1,17 +1,17 @@
 public class Ceaser {
 
-    private String mMessage;
+    private String mText;
     private int mKey;
-    public Ceaser(String mMessage, int mKey) {
-        this.mMessage = mMessage.toUpperCase();
+    public Ceaser(String text, int mKey) {
+        this.mText = text.toUpperCase();
         this.mKey = mKey;
     }
 
-    public String getmMessage() {
-        return mMessage;
+    public String getMessage() {
+        return mText;
     }
 
-    public int getmKey() {
+    public int getKey() {
         return mKey;
     }
 }

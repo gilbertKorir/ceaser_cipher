@@ -6,23 +6,26 @@ public class App {
 //        scan.nextLine();
 
         System.out.println("___________________________________");
-        System.out.println("Welcome to Caesar cipher Encrypt");
-        System.out.println("Enter message to encrypt");
+        System.out.println("Welcome to Caesar cipher Platform");
+        System.out.println("Enter message to encrypt: ");
         String msgEncrypt=scan.nextLine();
         System.out.println("Enter encryption key between 1 and 25");
         int encryptKey=scan.nextInt();
         if(encryptKey>0 && encryptKey<=25) {
             Ceaser caesar = new Ceaser(msgEncrypt, encryptKey);
             Encrypt encrypt = new Encrypt();
-            encrypt.Encrypt(caesar.getmMessage(), caesar.getmKey());
+            encrypt.Encrypt(caesar.getMessage(), caesar.getKey());
             Decrypt decrypt = new Decrypt();
-            decrypt.Decrypt(encrypt.getmEncryptedMessage(), caesar.getmKey());
+            decrypt.Decrypt(encrypt.getmyEncription(), caesar.getKey());
 
             System.out.println("----------------------");
-            System.out.println("Input Message : " + caesar.getmMessage());
-            System.out.println("Encrypted Message : " + encrypt.getmEncryptedMessage());
-            System.out.println("Decrypted Message : " + decrypt.getmDecryptedMessage());
+            System.out.println("Input Message : " + caesar.getMessage());
+            System.out.println("Encrypted Message : " + encrypt.getmyEncription());
+            System.out.println("Decrypted Message : " + decrypt.getmyDEcription());
             System.out.println("---------------------------");
+        }
+        else{
+            System.out.println("The key entered is Wrong Re-run the program....");
         }
     }
 }
