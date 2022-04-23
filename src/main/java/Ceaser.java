@@ -14,4 +14,10 @@ public class Ceaser {
     public int getKey() {
         return mKey;
     }
+    public boolean isValid(){
+        if ((mKey>0 && mKey < 26)){
+            return true;
+        }
+        return false;
+    }
 }
