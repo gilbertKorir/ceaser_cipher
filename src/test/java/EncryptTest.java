@@ -6,8 +6,8 @@ public class EncryptTest {
 
     @Test
     public void newEncrypt_createInstanceOfEncrypt_true() throws Exception{
-        Encrypt encrypt=new Encrypt();
-        String output=encrypt.Encrypt("THE QUICK BRWON", 3);
+        Encrypt encrypt = new Encrypt();
+        String output = encrypt.Encrypt("THE QUICK BROWN", 3);
         assertEquals(true,output instanceof String);
     }
 }
