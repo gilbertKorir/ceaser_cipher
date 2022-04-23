@@ -1,5 +1,4 @@
 public class Ceaser {
-
     private String mMessage;
     private int mKey;
     public Ceaser(String mMessage, int mKey) {
