@@ -25,16 +25,14 @@ A Caesar cipher is a simple method of encoding messages. Caesar ciphers use a su
 
 
 ## Set Up Instructions
-<p>-> Install Intellij</p>
-<p>-> install java </p>
--> install gradle.
-<br>
-<p>Steps</p>
+* To run the application, in your terminal:
 
-* Clone the repo `https://github.com/gilbertKorir/ceaser_cipher` and open it in your ideal editor example is intellij.
-* navigate to the /src/main directory that contains the compiled code
-* launch the app using "java App"
-
+    1. Clone or download the Repository
+    2. cd into directory then run `cd Hero-Squad`
+    3. Rebuild the Project Using Intellij IDEA or ...
+    4. Open terminal command line then navigate to the root folder of the application.
+    5. Run `gradle run` command.
+    6. Navigate to `http://localhost:4567/` in your browser.
 
 ## Technology Used
 
