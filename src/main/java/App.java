@@ -6,6 +6,8 @@ public class App {
 //        scan.nextLine();
         boolean encode=true;
         while (encode){
+            System.out.println("Welcome to the Caesar Cipher");
+            System.out.println("Do you want to Encrypt or Decrypt or Exit");
             String navigate =scan.next();
             scan.nextLine();
 
